@@ -12,30 +12,52 @@ In this way, it is planned to develop a system that can evaluate the overall sen
 
 ### Ön Koşullar (Prerequisites)
 
-Projeyi kullanmak herhangi bir Jupyter Notebook platformunda çalıştırılabilir.
+Projeyi, herhangi bir Jupyter Notebook platformunda çalıştırmak mümkündür.
 
 ```
 Google Colab -> colab.google
 Jupyter Notebook -> jupyter.org
 ```
 
-### Installing
+### Gerekli Kütüphaneler
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Projenin Çalışması için gerekli kütüphane zemberek kütüphanesidir:
 
 ```
-Give the example
+!pip install zemberek-python
 ```
 
-And repeat
+Gerekli importlar:
 
 ```
-until finished
+import re
+import csv
+import string
+import itertools
+import numpy as np
+import pandas as pd
+import random
+
+from zemberek import (
+    TurkishSpellChecker,
+    TurkishSentenceNormalizer,
+    TurkishMorphology,
+)
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Zemnerek için gerekli değişken tanımlamaları:
+
+```
+morphology = TurkishMorphology.create_with_defaults()
+normalizer = TurkishSentenceNormalizer(morphology)
+```
+
+Projenin çalışabilmesi için Drive(Sözlük) klasöründeki dosyaları kendi Drive'ınıza Sözlük adı altında bir klasör oluşturarak yüklemeniz gerekir.
+Drive'ı projeye entegre etme:
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
 
 ## Running the tests
 
