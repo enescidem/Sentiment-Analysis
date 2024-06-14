@@ -52,7 +52,7 @@ morphology = TurkishMorphology.create_with_defaults()
 normalizer = TurkishSentenceNormalizer(morphology)
 ```
 
-Projenin çalışabilmesi için Drive(Sözlük)[https://github.com/your/project/tags](https://github.com/enescidem/Sentiment-Analysis/tree/main/Drive(S%C3%B6zl%C3%BCk)) klasöründeki dosyaları kendi Drive'ınıza Sözlük adı altında bir klasör oluşturarak yüklemeniz gerekir.
+Projenin çalışabilmesi için [Drive(Sözlük)](https://github.com/enescidem/Sentiment-Analysis/tree/main/Drive(S%C3%B6zl%C3%BCk)) klasöründeki dosyaları kendi Drive'ınıza Sözlük adı altında bir klasör oluşturarak yüklemeniz gerekir.
 Drive'ı projeye entegre etme:
 ```
 from google.colab import drive
