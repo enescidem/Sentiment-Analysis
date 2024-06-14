@@ -1,10 +1,10 @@
-# Duygu Analizi (Sentiment Analysis)
+# Duygu Analizi
 
 İnternet üzerinden yapılan yorumların duygu analizi yapılması amacıyla gerçekleştirilecek proje, sosyal medya platformlarında paylaşılan metinleri veya ürün yorumlarını anlama ve yorumlama hedefine yönelik bir çalışma önermektedir. Bu proje, internette kullanıcılar tarafından paylaşılan metin verilerini toplamayı, işlemeyi ve bu metinlerdeki duygu durumlarını belirlemeyi amaçlamaktadır.
 
 Bu sayede, kullanıcıların paylaşımlarının genel duygu durumunu değerlendirebilecek, örneğin olumlu, olumsuz veya nötr olarak sınıflandırabilecek bir sistem geliştirilmesi planlanmaktadır. Proje, işletmelerin müşteri memnuniyetini artırmak, ürün geliştirmek ve pazarlama stratejilerini optimize etmek için değerli bir bilgi kaynağı sağlayacaktır.
 
-## English
+# Sentiment Analysis
 
 The project, which will be realized with the aim of analyzing the sentiment of online comments, proposes a study aimed at understanding and interpreting texts or product reviews shared on social media platforms. This project aims to collect and process text data shared by users on the Internet and identify the sentiment of these texts.
 
