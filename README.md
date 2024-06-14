@@ -10,12 +10,13 @@ The project, which will be realized with the aim of analyzing the sentiment of o
 
 In this way, it is planned to develop a system that can evaluate the overall sentiment of users' posts, for example, classifying them as positive, negative or neutral. The project will provide a valuable source of information for businesses to improve customer satisfaction, develop products and optimize their marketing strategies.
 
-### Prerequisites
+### Ön Koşullar (Prerequisites)
 
-What things you need to install the software and how to install them
+Projeyi kullanmak herhangi bir Jupyter Notebook platformunda çalıştırılabilir.
 
 ```
-Give examples
+Google Colab -> colab.google
+Jupyter Notebook -> jupyter.org
 ```
 
 ### Installing
