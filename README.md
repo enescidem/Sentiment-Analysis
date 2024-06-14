@@ -59,9 +59,13 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-## Running the tests
-
-Explain how to run the automated tests for this system
+## Fonksiyonlar Ve İşlevleri
+Drive içerisindeki pozitif.txt ve negatif.txt dosyalarında kelime ekleme, silme ve arama işlemlerini yapmak için aşağıdaki fonksiyonları kullanabilirsiniz:
+```
+def kelime_ekle(dosya_adı, kelime):
+def kelime_sil(dosya_adı, silinecek_kelime):
+def kelime_arama(dosya_adı, aranan_kelime):
+```
 
 ### Break down into end to end tests
 
