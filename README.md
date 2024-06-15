@@ -102,6 +102,7 @@ def en_dusuk_frekansli_kelime(frekans_tablosu):
 def katsayı_hesapla(deger, min_deger, max_deger):
 def normalize_frekans_tablosu(tablo):
 ```
+```
 1. **hash_func(kelime, boyut)**: Bir kelimenin ASCII değerlerinin toplamını verilen boyuta göre mod alarak bir hash değeri döndürür.
 2. **linear_probe(index, step, boyut)**: Çakışma durumunda lineer arama ile yeni indeks hesaplar.
 3. **kelime_cikar(metin)**: Metin içindeki kelimeleri çıkarır ve noktalama işaretleri ve rakamları kaldırarak bir liste döndürür.
@@ -112,6 +113,7 @@ def normalize_frekans_tablosu(tablo):
 8. **en_dusuk_frekansli_kelime(frekans_tablosu)**: Frekans tablosundaki en düşük frekansa sahip kelimeyi bulur.
 9. **katsayı_hesapla(deger, min_deger, max_deger)**: Bir değeri min ve max değerlere göre normalize eder.
 10. **normalize_frekans_tablosu(tablo)**: Frekans tablosundaki tüm frekansları normalize eder.
+```
 ---
 ### Hash tablosunu Drive'a kaydetme ve geri yükleme fonksiyonları:
 ```
