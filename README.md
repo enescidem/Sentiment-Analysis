@@ -69,20 +69,21 @@ def kelime_arama(dosya_adı, aranan_kelime):
 ```
 ---
 
-#### Normalizasyon fonksiyonu
+### Normalizasyon fonksiyonu
 ```
 def get_normalizasyon(example):
 ```
 ![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/c0aaac0f-63ab-4ca3-a40b-130913981712)
 
 ---
-### And coding style tests
-
-Explain what these tests test and why
-
+### Kelime Analiz fonksiyonu
 ```
-Give an example
+def get_kelimeanaliz(example):
 ```
+![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/4c3b2cac-57f0-4014-b9ca-f06265643dcd)
+
+---
+
 
 ## Deployment
 
