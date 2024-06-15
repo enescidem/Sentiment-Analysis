@@ -67,13 +67,16 @@ def kelime_ekle(dosya_adı, kelime):
 def kelime_sil(dosya_adı, silinecek_kelime):
 def kelime_arama(dosya_adı, aranan_kelime):
 ```
-
+---
 
 #### Normalizasyon fonksiyonu
 ```
 def get_normalizasyon(example):
 ```
+Fonksiyonun işlevi:
+![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/c0aaac0f-63ab-4ca3-a40b-130913981712)
 
+---
 ### And coding style tests
 
 Explain what these tests test and why
