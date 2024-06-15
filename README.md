@@ -73,8 +73,6 @@ def kelime_arama(dosya_adı, aranan_kelime):
 ```
 def get_normalizasyon(example):
 ```
-Fonksiyonun işlevi:
-
 ![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/c0aaac0f-63ab-4ca3-a40b-130913981712)
 
 ---
