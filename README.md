@@ -69,32 +69,54 @@ def kelime_arama(dosya_adı, aranan_kelime):
 ```
 ---
 
-### Normalizasyon fonksiyonu
+### Normalizasyon fonksiyonu:
 ```
 def get_normalizasyon(example):
 ```
 ![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/c0aaac0f-63ab-4ca3-a40b-130913981712)
 
 ---
-### Kelime Analiz fonksiyonu
+### Kelime Analiz fonksiyonu:
 ```
 def get_kelimeanaliz(example):
 ```
 ![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/4c3b2cac-57f0-4014-b9ca-f06265643dcd)
 
 ---
-
-###Sorgulanan kelimenin pozitif veya negatif txt dosyalarında olup olmadığını kontrol eden bir sistem
+### Sorgulanan kelimenin pozitif veya negatif txt dosyalarında olup olmadığını kontrol eden bir sistem:
 ```
 def pozitif_mi(kelime):
 def negatif_mi(kelime):
 ```
 ---
-### Normalizasyon fonksiyonu
-Sorgulanan kelimenin pozitif veya negatif txt dosyalarında olup olmadığını kontrol eden bir sistem
+### Hash tablosunun fonksiyonları:
 ```
-def pozitif_mi(kelime):
-def negatif_mi(kelime):
+def hash_func(kelime, boyut):
+def linear_probe(index, step, boyut):
+def kelime_cikar(metin):
+def kelime_agirligi(metin_listesi, tablo_boyutu=5000):
+def ara_tablo(kelime, frekans_tablosu, tablo_boyutu=5000):
+def print_frekans_tablosu(frekans_tablosu):
+def en_yuksek_frekansli_kelime(frekans_tablosu):
+def en_dusuk_frekansli_kelime(frekans_tablosu):
+def katsayı_hesapla(deger, min_deger, max_deger):
+def normalize_frekans_tablosu(tablo):
+```
+1. **hash_func(kelime, boyut)**: Bir kelimenin ASCII değerlerinin toplamını verilen boyuta göre mod alarak bir hash değeri döndürür.
+2. **linear_probe(index, step, boyut)**: Çakışma durumunda lineer arama ile yeni indeks hesaplar.
+3. **kelime_cikar(metin)**: Metin içindeki kelimeleri çıkarır ve noktalama işaretleri ve rakamları kaldırarak bir liste döndürür.
+4. **kelime_agirligi(metin_listesi, tablo_boyutu)**: Metin listesindeki kelimeleri pozitif veya negatif olarak sınıflandırıp ağırlıklarını hesaplayarak hash tablosuna ekler.
+5. **ara_tablo(kelime, frekans_tablosu, tablo_boyutu)**: Bir kelimenin frekans tablosunda kaç kez geçtiğini bulur.
+6. **print_frekans_tablosu(frekans_tablosu)**: Frekans tablosundaki kelimeleri ve frekanslarını yazdırır.
+7. **en_yuksek_frekansli_kelime(frekans_tablosu)**: Frekans tablosundaki en yüksek frekansa sahip kelimeyi bulur.
+8. **en_dusuk_frekansli_kelime(frekans_tablosu)**: Frekans tablosundaki en düşük frekansa sahip kelimeyi bulur.
+9. **katsayı_hesapla(deger, min_deger, max_deger)**: Bir değeri min ve max değerlere göre normalize eder.
+10. **normalize_frekans_tablosu(tablo)**: Frekans tablosundaki tüm frekansları normalize eder.
+---
+### Hash tablosunu Drive'a kaydetme ve geri yükleme fonksiyonları:
+```
+def save_to_csv(frekans_tablosu, dosya_adı):
+def load_from_csv(dosya_adı, tablo_boyutu):
 ```
 ---
 
