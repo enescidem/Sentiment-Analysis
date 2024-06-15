@@ -113,7 +113,8 @@ def normalize_frekans_tablosu(tablo):
 9. **katsayı_hesapla(deger, min_deger, max_deger)**: Bir değeri min ve max değerlere göre normalize eder.
 10. **normalize_frekans_tablosu(tablo)**: Frekans tablosundaki tüm frekansları normalize eder.
 
-Örnek Bir Hash Tablosu
+Örnek Bir Hash Tablosu([Drive(Sözlük)]([https://github.com/enescidem/Sentiment-Analysis/tree/main/Drive(S%C3%B6zl%C3%BCk)](https://github.com/enescidem/Sentiment-Analysis/blob/main/Drive(S%C3%B6zl%C3%BCk)/hash_table.csv))):
+
 ![HashTable](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/9b62d762-949a-4191-b035-b030510c50ab)
 
 ---
