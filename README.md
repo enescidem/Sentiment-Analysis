@@ -12,12 +12,19 @@ In this way, it is planned to develop a system that can evaluate the overall sen
 
 ### Genel Hatlarıyla Algoritma Adımları:
 **1-** Gelen yorumlar ilk olarak get_normalizasyon fonksiyonuna girerek normalize edilir.
+
 **2-** Normalize edilmiş yorumlar get_kelimeanaliz ile sıfat, zarf ve fiil olarak ayrılır.
+
 **3-** Ayrılan kelimeler hash tablosuna atılır sayılır ve kaydedilir.
+
 **3.5-** Eğer hash tablosuna eklenirke kelime pozitif ve negatif txt dosyalarında yok ise kullanıcıya kelimenin hangi txt ye ait olduğu sorulur buna göre sıralanır.
+
 **4-** Hash tablosundaki değerler -1 ile 1 aralığına alınır.
+
 **5-** Daha sonra yorumun gerekli kelimeleri için verilen değerler toplanarak cümlenin skoru belirlenir.
+
 **6-** Cümlenin sonucu - ise olumsuz, + ise olumlu bir yorum olduğunu kaydediyoruz.
+
 ### Ön Koşullar (Prerequisites)
 
 Projeyi, herhangi bir Jupyter Notebook platformunda çalıştırmak mümkündür.
