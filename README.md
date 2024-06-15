@@ -61,7 +61,7 @@ drive.mount('/content/drive')
 
 ## Fonksiyonlar Ve İşlevleri
 
-#### Drive içerisindeki pozitif.txt ve negatif.txt dosyalarında kelime ekleme, silme ve arama işlemlerini yapmak için aşağıdaki fonksiyonları kullanabilirsiniz:
+### Drive içerisindeki pozitif.txt ve negatif.txt dosyalarında kelime ekleme, silme ve arama işlemlerini yapmak için aşağıdaki fonksiyonları kullanabilirsiniz:
 ```
 def kelime_ekle(dosya_adı, kelime):
 def kelime_sil(dosya_adı, silinecek_kelime):
@@ -82,6 +82,20 @@ def get_kelimeanaliz(example):
 ```
 ![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/4c3b2cac-57f0-4014-b9ca-f06265643dcd)
 
+---
+
+###Sorgulanan kelimenin pozitif veya negatif txt dosyalarında olup olmadığını kontrol eden bir sistem
+```
+def pozitif_mi(kelime):
+def negatif_mi(kelime):
+```
+---
+### Normalizasyon fonksiyonu
+Sorgulanan kelimenin pozitif veya negatif txt dosyalarında olup olmadığını kontrol eden bir sistem
+```
+def pozitif_mi(kelime):
+def negatif_mi(kelime):
+```
 ---
 
 
