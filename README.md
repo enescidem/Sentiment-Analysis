@@ -60,7 +60,7 @@ from zemberek import (
 )
 ```
 
-Zemnerek için gerekli değişken tanımlamaları:
+Zemberek için gerekli değişken tanımlamaları:
 
 ```
 morphology = TurkishMorphology.create_with_defaults()
