@@ -143,4 +143,18 @@ def load_from_csv(dosya_adı, tablo_boyutu):
 ## Bir Veri Seti Verdiğimizde([verilen veri seti](https://github.com/enescidem/Sentiment-Analysis/blob/main/Drive(Sözlük)/veri_seti.csv)) Algoritanın Verdiği Sonuçlar:
 ![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/48a2d958-493b-4419-a39e-6601b54676df)
 Bu tabloda görülen sütunları teker teker açıklayalım:
-**Görüş:** Bu sütun veri setinde bulunan
+
+**Görüş:** Bu sütun veri setinde bulunan yorumların normalizasyondan geçirilmiş halidir.
+**label:** Bu sütun veri setindeki yorumların gerçek(doğru) sonuçlarını gösterir.
+**Kelimeler:** Bu sütun normalizasyondan geçmiş cümlelerden bulunan sıfat ve zarf kelimeleridir.
+**Toplam Ağırlık:** Bu sütun yorumun tüm fonksiyonlardan geçtikten sonraki aldığı sonuçtur. - değeri olumsuz + değeri olumludur.
+**binary_sonuçlar:** Bu sütun Toplam Ağırlıkta bulduğumuz değerleri 0 ve 1 olmaz üzere ayırıyor. -1 de veriyoruz bu değer Toplam Ağırlığı 0 olan sonuçlar için.
+**Doğruluk:** Bu sütun label ile binary_sonuçlar sütununu karşılaştırıp eşit olan değerlere True farklı olan değerlere ise False değeri yazdırıyor.
+
+Burada bulunan sonuçlarda fiiler yoktur. Fiiller için oluçturulan fonksiyonlar tam olarak doğru çalışmadığı için es geçilmiştir.
+
+###Tabloya göre modelin doğruluk oranı şu şekildedir:###
+![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/8d495c25-eb6a-4f84-aba5-68cc88c4e027)
+
+###Tek Bir Cümlenin Adım Adım Analizi:###
+![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/36850038-576c-412b-8be1-c85c616a563c)
