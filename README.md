@@ -140,7 +140,7 @@ def load_from_csv(dosya_adı, tablo_boyutu):
 ---
 
 
-## Bir Veri Seti Verdiğimizde([verilen veri seti](https://github.com/enescidem/Sentiment-Analysis/blob/main/Drive(Sözlük)/veri_seti.csv)) Algoritanın Verdiği Sonuçlar:
+## Bir Veri Seti Verdiğimizde([verilen veri seti](https://github.com/enescidem/Sentiment-Analysis/blob/main/Drive(Sözlük)/veri_seti.csv)) Algoritmanın Verdiği Sonuçlar:
 ![image](https://github.com/enescidem/Sentiment-Analysis/assets/92892867/48a2d958-493b-4419-a39e-6601b54676df)
 Bu tabloda görülen sütunları teker teker açıklayalım:
 
