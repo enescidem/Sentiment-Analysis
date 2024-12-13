@@ -1,5 +1,11 @@
 # Duygu Analizi
 
+### Medium Links:
+English: https://medium.com/@enescidem/sentiment-anlaysis-41c1776a775c
+Turkish: https://medium.com/@enescidem/sentiment-analysis-duygu-analizi-39bb29c49dcd
+
+---
+
 İnternet üzerinden yapılan yorumların duygu analizi yapılması amacıyla gerçekleştirilecek proje, sosyal medya platformlarında paylaşılan metinleri veya ürün yorumlarını anlama ve yorumlama hedefine yönelik bir çalışma önermektedir. Bu proje, internette kullanıcılar tarafından paylaşılan metin verilerini toplamayı, işlemeyi ve bu metinlerdeki duygu durumlarını belirlemeyi amaçlamaktadır.
 
 Bu sayede, kullanıcıların paylaşımlarının genel duygu durumunu değerlendirebilecek, örneğin olumlu, olumsuz veya nötr olarak sınıflandırabilecek bir sistem geliştirilmesi planlanmaktadır. Proje, işletmelerin müşteri memnuniyetini artırmak, ürün geliştirmek ve pazarlama stratejilerini optimize etmek için değerli bir bilgi kaynağı sağlayacaktır.
