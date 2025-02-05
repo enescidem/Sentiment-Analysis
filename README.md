@@ -3,7 +3,7 @@
 ### Medium Links:
 English: https://medium.com/@enescidem/sentiment-anlaysis-41c1776a775c
 
-Turkish: https://medium.com/@enescidem/sentiment-analysis-duygu-analizi-39bb29c49dcd
+Türkçe: https://medium.com/@enescidem/sentiment-analysis-duygu-analizi-39bb29c49dcd
 
 ---
 
